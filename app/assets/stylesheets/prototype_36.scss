@@ -1,0 +1,401 @@
+.prototype_body_36 {
+  background: var(--dirty-black);
+  width: 1080px;
+}
+
+#prototype_36 {
+  height: 100%;
+  width: 100%;
+  // flex-direction: column;
+  // justify-content: center;
+  // height: 100%;
+
+  h1 {
+    display: flex;
+    position: relative;
+    font-family: AtomicAliceLight, Helvetica, Arial, sans-serif;
+    font-weight: light;
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 20px;
+  }
+
+  h3 {
+    margin-bottom: 14px;
+    font-size: 18px;
+    color: var(--dirty-white);
+    font-family: AtomicAliceLight, Helvetica, Arial, sans-serif;
+    font-weight: light;
+    text-transform: lowercase;
+  }
+  p {
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-family: AtomicAliceLight, Helvetica, Arial, sans-serif;
+    font-weight: light;
+    text-transform: lowercase;
+  }
+
+  .Container {
+    display: flex;
+    padding: 20px 40px 20px 40px;
+    width: 100vw;
+    height: 1700px;
+    flex-direction: column;
+  }
+
+  .SC_ToggleButton {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    margin: 10px;
+    padding-bottom: 4px;
+    font-size: 14px;
+    text-align: center;
+    background-color: var(--dirty-black);
+    color: var(--dirty-white);
+    border: 1px solid var(--dirty-white);
+    border-radius: 30px;
+    cursor: pointer;
+
+    p {
+      display: flex;
+    }
+
+    &:hover:not(.active) {
+      background-color: var(--light-grey);
+      color: var(--dirty-black);
+    }
+
+    &.active {
+      font-weight: 800;
+      color: var(--dirty-black);
+      background-color: var(--dirty-white);
+      cursor: default;
+    }
+  }
+
+  .SC_ToggleButton:first-child {
+    margin-left: 0px;
+  }
+
+  .SC_ToggleButton:last-child {
+    margin-left: 0px;
+  }
+
+  .SC_ToggleButtonSet {
+    color: var(--dirty-white);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-content: space-between;
+    align-items: center;
+
+    > div {
+      position: relative;
+      display: flex;
+      width: 100%;
+    }
+  }
+
+  .SynthContainer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 10px;
+    border: 1px solid var(--dirty-white);
+    border-radius: 30px;
+    padding: 10px 40px 10px 40px;
+
+    h1 {
+      color: var(--dirty-white);
+    }
+  }
+
+  .third_EffectSynthContaniier {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .PosterWall {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    // border: 1px solid var(--dirty-white);
+    // border-radius: 30px;
+    padding: 0px;
+    margin-top: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .SmallPoster {
+    position: relative;
+    display: flex;
+    width: 170px;
+    height: 230px;
+    // border: 1px solid var(--dirty-white);
+    // border-radius: 30px;
+    margin: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .SC_TogglePosterButton {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    cursor: default;
+    border: 1px solid var(--dirty-white);
+    border-radius: 30px;
+
+    &:hover:not(.active) {
+      border: 1px solid var(--dirty-white);
+      border-radius: 30px;
+      cursor: pointer;
+    }
+
+    &.active {
+      border: none;
+      cursor: pointer;
+    }
+  }
+
+  .Poster_1 {
+    background-image: url('../images/poster_1.svg');
+  }
+  .Poster_2 {
+    background-image: url('../images/poster_2.svg');
+  }
+  .Poster_3 {
+    background-image: url('../images/poster_3.svg');
+  }
+  .Poster_4 {
+    background-image: url('../images/poster_4.svg');
+  }
+  .Poster_5 {
+    background-image: url('../images/poster_5.svg');
+  }
+  .Poster_6 {
+    background-image: url('../images/poster_6.svg');
+  }
+  .Poster_7 {
+    background-image: url('../images/poster_7.svg');
+  }
+  .Poster_8 {
+    background-image: url('../images/poster_8.svg');
+  }
+  .Poster_9 {
+    background-image: url('../images/poster_9.svg');
+  }
+  .Poster_10 {
+    background-image: url('../images/poster_10.svg');
+  }
+  .Poster_11 {
+    background-image: url('../images/poster_11.svg');
+  }
+  .Poster_12 {
+    background-image: url('../images/poster_12.svg');
+  }
+  .Poster_13 {
+    background-image: url('../images/poster_13.svg');
+  }
+  .Poster_14 {
+    background-image: url('../images/poster_14.svg');
+  }
+  .Poster_15 {
+    background-image: url('../images/poster_15.svg');
+  }
+
+  .Wall {
+    position: relative;
+    display: flex;
+  }
+
+  .LeftSection {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 190%;
+    height: 925px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+  .RightSection {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 925px;
+    padding-right: 10px;
+  }
+
+  .Thing {
+    width: 100%;
+    height: 215px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../images/thing.svg');
+  }
+
+  .EffectSection {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 30%;
+  }
+
+  .AdditionalEffects {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 1px solid var(--dirty-white);
+    border-radius: 30px;
+    padding: 0px 40px 16px 40px;
+    margin: 10px;
+  }
+
+  .AdditionalEffects:last-child {
+    margin-right: 0px;
+  }
+
+  .AdditionalEffects:first-child {
+    margin-left: 0px;
+  }
+
+  .SC_Button {
+    display: flex;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    color: var(--dirty-black);
+    background: var(--dirty-white);
+    border-radius: 30px;
+  }
+
+  .BigPoster {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 838px;
+    border: 1px solid var(--dirty-white);
+    border-radius: 30px;
+    padding: 30px;
+    margin-top: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../images/poster_1.png');
+  }
+
+  .SynthContainerBigger {
+    position: relative;
+    display: flex;
+    width: 100%;
+    margin: 10px;
+    flex-direction: column;
+  }
+
+  .Section {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: calc(100vh - 40px);
+    align-content: space-between;
+  }
+
+  .SecondSection {
+    height: 102vh;
+  }
+
+  .ToneSynth {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+
+    h1 {
+      color: var(--dirty-white);
+    }
+  }
+
+  .Channel {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .SC_Slider {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    input[type='range'] {
+      -webkit-appearance: none;
+      width: 100%;
+      border-radius: 8px;
+
+      &::-webkit-slider-runnable-track {
+        height: 4px;
+        width: 100%;
+        background: var(--dirty-black);
+        border-radius: 8px;
+        border: 1px solid var(--dirty-white);
+      }
+
+      &::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        border: none;
+        height: 16px;
+        width: 16px;
+        border-radius: 8px;
+        background: var(--dirty-black);
+        border: 1px solid var(--dirty-white);
+        margin-top: -6px;
+        cursor: pointer;
+      }
+
+      &:focus {
+        outline: solid;
+
+        &::-webkit-slider-runnable-track {
+          border-radius: 8px;
+          background: var(--dirty-black);
+          border: 1px solid var(--dirty-white);
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .Disabled {
+    display: none;
+  }
+}
