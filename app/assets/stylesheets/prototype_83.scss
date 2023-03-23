@@ -1,0 +1,45 @@
+#prototype_83 {
+  display: flex;
+  width: 100%;
+
+  canvas {
+    margin: auto;
+  }
+
+  .graphem {
+    position: absolute;
+    background-size: cover;
+
+    &.sign1 {
+      background-image: image-url('sign1.png');
+    }
+
+    &.sign2 {
+      background-image: image-url('sign2.png');
+    }
+
+    &.sign3 {
+      background-image: image-url('sign3.png');
+    }
+
+    &.sign4 {
+      background-image: image-url('sign4.png');
+    }
+
+    &.sign5 {
+      background-image: image-url('sign5.png');
+    }
+
+    &.sign6 {
+      background-image: image-url('sign6.png');
+    }
+
+    &.sign7 {
+      background-image: image-url('sign7.png');
+    }
+
+    &.sign8 {
+      background-image: image-url('sign8.png');
+    }
+  }
+}
