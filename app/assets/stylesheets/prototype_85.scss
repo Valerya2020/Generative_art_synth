@@ -1,0 +1,58 @@
+.prototype_body_85 {
+  background: black;
+}
+
+#prototype_85 {
+  display: flex;
+  width: 100%;
+
+  .paper {
+    position: relative;
+    margin: 20px;
+    width: 150px;
+    max-width: 150px;
+    min-width: 150px;
+    height: 600px;
+    margin: auto;
+    background: white;
+    overflow: hidden;
+  }
+
+  .graphem {
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    &.sign1 {
+      background-image: image-url('sign1.svg');
+    }
+
+    &.sign2 {
+      background-image: image-url('sign2.svg');
+    }
+
+    &.sign3 {
+      background-image: image-url('sign3.svg');
+    }
+
+    &.sign4 {
+      background-image: image-url('sign4.svg');
+    }
+
+    &.sign5 {
+      background-image: image-url('sign5.svg');
+    }
+
+    &.sign6 {
+      background-image: image-url('sign6.svg');
+    }
+
+    &.sign7 {
+      background-image: image-url('sign7.svg');
+    }
+
+    &.sign8 {
+      background-image: image-url('sign8.svg');
+    }
+  }
+}
